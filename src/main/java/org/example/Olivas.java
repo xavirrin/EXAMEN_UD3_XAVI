@@ -87,11 +87,12 @@ public class Olivas {
         System.out.println("Total kg generados: " + totalOlivas + "kg");
         System.out.println("Litros totales obtenidos: " + totalOlivas/8 + " L");
         System.out.println("Litros por hilera...");
-        for (int i = 0; i < kilos.length; i++) {
+        for (int i = 0; i < ancho ; i++) {
             sumaHilera = 0;
             System.out.print("\t- Hilera " + (i + 1) + ": ");
             for (int j = 0; j < kilos[i].length; j++) {
-                sumaHilera += kilos[i][j];
+                sumaHilera += kilos[j][i];
+
             }
             System.out.println(sumaHilera/8 + " L");
         }
