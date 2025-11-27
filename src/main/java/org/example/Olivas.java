@@ -1,7 +1,5 @@
 package org.example;
 
-import javax.print.attribute.standard.PrinterMakeAndModel;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
