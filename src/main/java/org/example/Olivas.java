@@ -133,7 +133,7 @@ public class Olivas {
         for (int i = 0; i < kilos.length; i++) {
             for (int j = 0; j < kilos[i].length; j++) {
                 if (kilos[i][j] < 5) {
-                    System.out.print(random.nextInt(15,35) + " ");
+                    System.out.print(random.nextInt(15,36) + " ");
                 }else {
                     System.out.print(kilos[i][j] + " ");
                 }
