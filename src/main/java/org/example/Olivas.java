@@ -142,12 +142,3 @@ public class Olivas {
         }
     }
 }
-
-//for (int i = 0; i < kilos.length; i++) {
-//sumaHilera = 0;
-//        System.out.print("\t- Hilera " + (i + 1) + ": ");
-//        for (int j = 0; j < kilos[i].length; j++) {
-//sumaHilera += kilos[i][j];
-//        }
-//        System.out.println(sumaHilera/8 + " L");
-//        }
